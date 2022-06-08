@@ -7,8 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Context\" />
-    <Folder Include="EntityFramework\" />
+    <Compile Remove="EntityFramework\**" />
+    <EmbeddedResource Remove="EntityFramework\**" />
+    <None Remove="EntityFramework\**" />
   </ItemGroup>
 
   <ItemGroup>
