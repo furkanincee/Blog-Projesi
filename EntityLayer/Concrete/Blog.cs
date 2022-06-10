@@ -9,6 +9,10 @@ namespace EntityLayer.Concrete
 {
     public class Blog
     {
+        public Blog()
+        {
+            BlogCreateDate = DateTime.Now;
+        }
         [Key]
         public int BlogID { get; set; }
         public string BlogTitle { get; set; }

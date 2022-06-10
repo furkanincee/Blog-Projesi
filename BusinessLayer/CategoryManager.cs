@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace BusinessLayer
 {
-    public class CategoryManager : ICategoryServices
+    public class CategoryManager : ICategoryService
     {
         public void AddCategory(Category category)
         {
