@@ -339,3 +339,4 @@ C:\Users\STUDENT1\Desktop\Blog-Projesi\Blog Projesi\bin\Debug\net6.0\zh-Hant\Mic
 C:\Users\STUDENT1\Desktop\Blog-Projesi\Blog Projesi\bin\Debug\net6.0\runtimes\win-arm\lib\net6.0\dotnet-aspnet-codegenerator-design.exe
 C:\Users\STUDENT1\Desktop\Blog-Projesi\Blog Projesi\bin\Debug\net6.0\runtimes\win-arm64\lib\net6.0\dotnet-aspnet-codegenerator-design.exe
 C:\Users\STUDENT1\Desktop\Blog-Projesi\Blog Projesi\obj\Debug\net6.0\Blog Projesi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\furka\Desktop\Blog-Projesi\Blog Projesi\obj\Debug\net6.0\Blog Projesi.MvcApplicationPartsAssemblyInfo.cs

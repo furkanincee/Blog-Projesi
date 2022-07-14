@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BusinessLayer
+namespace BusinessLayer.Abstract
 {
     internal interface IBlogService
     {
@@ -13,7 +13,7 @@ namespace BusinessLayer
         void RemoveBlog(Blog blog);
         void UpdateBlog(Blog blog);
         List<Blog> GetBlogs();
-        Blog GetBlog(int id);      
+        Blog GetBlog(int id);
         List<Blog> GetListWithCategory();
     }
 }

@@ -13,7 +13,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Include="EntityFramework\EfAboutRepository.cs" />
     <Compile Include="EntityFramework\EfBlogRepository.cs" />
+    <Compile Include="EntityFramework\EfCategoryRepository.cs" />
+    <Compile Include="EntityFramework\EfCommentRepository.cs" />
+    <Compile Include="EntityFramework\EfContactRepository.cs" />
+    <Compile Include="EntityFramework\EfWriterRepository.cs" />
   </ItemGroup>
 
   <ItemGroup>

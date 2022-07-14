@@ -1,40 +1,41 @@
-﻿using System;
+﻿using DataAccessLayer.Abstract;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataAccessLayer
+namespace DataAccessLayer.Repositories
 {
     public class GenericRepository<T> : IGenericDal<T> where T : class
     {
-        Context context = new Context();
+        Context c = new Context();
         public void Delete(T item)
         {
-            context.Remove(item);
-            context.SaveChanges();
+            c.Remove(item);
+            c.SaveChanges();
         }
 
         public List<T> GetAll()
         {
-            return context.Set<T>().ToList();
+            return c.Set<T>().ToList();
         }
 
-        public T GetByID(int id)
+        public T GetById(int id)
         {
-            return context.Set<T>().Find(id);
+            return c.Set<T>().Find(id);
         }
 
         public void Insert(T item)
         {
-            context.Add(item);
-            context.SaveChanges();
+            c.Add(item);
+            c.SaveChanges();
         }
 
         public void Update(T item)
         {
-            context.Update(item);
-            context.SaveChanges();
+            c.Update(item);
+            c.SaveChanges();
         }
     }
 }

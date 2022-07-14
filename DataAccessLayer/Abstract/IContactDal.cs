@@ -5,10 +5,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataAccessLayer
+namespace DataAccessLayer.Abstract
 {
-    public interface IBlogDal : IGenericDal<Blog>
+    public interface IContactDal : IGenericDal<Contact>
     {
-        List<Blog> GetListWithCategory();
+
     }
 }

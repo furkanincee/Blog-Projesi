@@ -1,4 +1,6 @@
-﻿using DataAccessLayer;
+﻿using BusinessLayer.Abstract;
+using DataAccessLayer;
+using DataAccessLayer.Abstract;
 using EntityLayer.Concrete;
 using System;
 using System.Collections.Generic;
@@ -6,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BusinessLayer
+namespace BusinessLayer.Concrete
 {
     public class BlogManager : IBlogService
     {
