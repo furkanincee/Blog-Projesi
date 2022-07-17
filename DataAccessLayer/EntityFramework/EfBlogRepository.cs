@@ -12,9 +12,9 @@ namespace DataAccessLayer.EntityFramework
 {
     public class EfBlogRepository : GenericRepository<Blog>, IBlogDal
     {
+        Context context = new Context();
         public List<Blog> GetListWithCategory()
-        {
-            Context context = new Context();
+        {           
             return context.Blogs.Include(x=>x.Category).ToList();
         }
     }

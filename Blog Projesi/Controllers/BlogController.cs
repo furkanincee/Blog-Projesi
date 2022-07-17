@@ -12,9 +12,10 @@ namespace Blog_Projesi.Controllers
             var values = bm.GetListWithCategory();
             return View(values);
         }
-        public IActionResult BlogDetails(int id)
+        public IActionResult BlogReadAll(int id)
         {
-            return View();
+            var values = bm.GetBlog(id);
+            return View(values);
         }
     }
 }

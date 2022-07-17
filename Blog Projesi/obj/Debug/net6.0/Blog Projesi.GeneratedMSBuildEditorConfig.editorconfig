@@ -15,8 +15,8 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\furka\Desktop\Blog-Projesi\Blog Projesi
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/furka/Desktop/Blog-Projesi/Blog Projesi/Views/Blog/BlogDetails.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1xCbG9nRGV0YWlscy5jc2h0bWw=
+[C:/Users/furka/Desktop/Blog-Projesi/Blog Projesi/Views/Blog/BlogReadAll.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1xCbG9nUmVhZEFsbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/furka/Desktop/Blog-Projesi/Blog Projesi/Views/Blog/Index.cshtml]
@@ -25,6 +25,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/furka/Desktop/Blog-Projesi/Blog Projesi/Views/Category/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/furka/Desktop/Blog-Projesi/Blog Projesi/Views/Comment/CommentList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbWVudFxDb21tZW50TGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/furka/Desktop/Blog-Projesi/Blog Projesi/Views/Comment/PartialAddComment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbWVudFxQYXJ0aWFsQWRkQ29tbWVudC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/furka/Desktop/Blog-Projesi/Blog Projesi/Views/Shared/Error.cshtml]
@@ -41,6 +49,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/furka/Desktop/Blog-Projesi/Blog Projesi/Views/Shared/Partials/_TopbarPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxzXF9Ub3BiYXJQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/furka/Desktop/Blog-Projesi/Blog Projesi/Views/Shared/UserLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFVzZXJMYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/furka/Desktop/Blog-Projesi/Blog Projesi/Views/Shared/_ValidationScriptsPartial.cshtml]

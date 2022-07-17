@@ -9,6 +9,9 @@ namespace DataAccessLayer.Abstract
 {
     public interface ICategoryDal : IGenericDal<Category>
     {
-
+        public List<Category> GetAllCategories()
+        {
+            return new List<Category>();
+        }
     }
 }

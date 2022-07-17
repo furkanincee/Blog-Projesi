@@ -24,12 +24,12 @@ namespace BusinessLayer.Concrete
 
         public List<Category> GetAllCategories()
         {
-            
+            return _categoryDal.GetAllCategories();
         }
 
         public Category GetCategory(int id)
         {
-            
+            return new Category();
         }
 
         public void RemoveCategory(Category category)

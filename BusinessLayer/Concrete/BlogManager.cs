@@ -34,7 +34,7 @@ namespace BusinessLayer.Concrete
 
         public List<Blog> GetBlogs()
         {
-            throw new NotImplementedException();
+            return _blogDal.GetAll();
         }
 
         public void RemoveBlog(Blog blog)
